@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.candidate_expand:hover {
+  transform: scale(1.02) !important;
+  transition: all 0.4s ease;
+
+}
+
+.candidate_expand:hover  > .show_text{
+  visibility: visible !important;
+  opacity: 1 !important;
+  transition: all 0.2s ease-in;
+}
+
+/* .candidate_expand:hover + .show_text {
+visibility: visible;
+} */
